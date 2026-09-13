@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="3BHK Luxe Apartment in Lucknow — a comfortable, stylish entire-home stay for families and groups.">
+  <title>3BHK Luxe Apartment | Lucknow</title>
+  <style>
+    :root { --ink:#1d1d1d; --muted:#666; --cream:#f7f4ef; --gold:#b28a52; --white:#fff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:var(--white); line-height:1.6; }
+    a { color:inherit; text-decoration:none; }
+    .nav { position:fixed; top:0; width:100%; z-index:10; background:rgba(255,255,255,.94); backdrop-filter:blur(8px); border-bottom:1px solid #eee; }
+    .nav-inner { max-width:1150px; margin:auto; display:flex; justify-content:space-between; align-items:center; padding:15px 22px; }
+    .brand { font-weight:800; letter-spacing:.5px; }
+    .brand span { color:var(--gold); }
+    .links { display:flex; gap:22px; font-size:14px; }
+    .hero { min-height:88vh; display:grid; place-items:center; text-align:center; padding:120px 22px 70px;
+      background:linear-gradient(rgba(0,0,0,.42),rgba(0,0,0,.48)),url("living-room-2.jpg") center/cover; color:white; }
+    .hero h1 { font-size:clamp(40px,7vw,78px); line-height:1.02; max-width:900px; }
+    .hero p { margin:22px auto 30px; max-width:650px; font-size:19px; }
+    .buttons { display:flex; justify-content:center; flex-wrap:wrap; gap:12px; }
+    .btn { display:inline-block; padding:13px 22px; border-radius:999px; font-weight:700; border:1px solid rgba(255,255,255,.7); }
+    .btn.primary { background:var(--gold); border-color:var(--gold); color:white; }
+    section { max-width:1150px; margin:auto; padding:75px 22px; }
+    .eyebrow { color:var(--gold); text-transform:uppercase; letter-spacing:2px; font-size:12px; font-weight:800; }
+    h2 { font-size:38px; margin:8px 0 28px; }
+    .intro { max-width:760px; color:var(--muted); font-size:17px; }
+    .features { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:35px; }
+    .feature { background:var(--cream); padding:24px; border-radius:14px; }
+    .feature b { display:block; margin-bottom:5px; }
+    .gallery { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+    .gallery img { width:100%; height:300px; object-fit:cover; border-radius:12px; display:block; }
+    .gallery img:first-child { grid-column:span 2; height:430px; }
+    .split { display:grid; grid-template-columns:1fr 1fr; gap:45px; align-items:center; }
+    .card { background:var(--cream); padding:35px; border-radius:18px; }
+    ul { list-style:none; color:var(--muted); }
+    li { margin:10px 0; }
+    li::before { content:"✓"; color:var(--gold); font-weight:800; margin-right:10px; }
+    .cta { background:var(--ink); color:white; max-width:none; text-align:center; }
+    .cta-inner { max-width:900px; margin:auto; padding:75px 22px; }
+    .cta h2 { margin-bottom:14px; }
+    .small { color:#aaa; font-size:13px; margin-top:20px; }
+    footer { text-align:center; padding:25px; color:#777; font-size:13px; }
+    @media(max-width:800px) {
+      .links { display:none; }
+      .features { grid-template-columns:repeat(2,1fr); }
+      .gallery { grid-template-columns:1fr 1fr; }
+      .gallery img:first-child { grid-column:span 2; height:300px; }
+      .split { grid-template-columns:1fr; }
+    }
+    @media(max-width:520px) {
+      .features,.gallery { grid-template-columns:1fr; }
+      .gallery img:first-child { grid-column:span 1; height:280px; }
+      .gallery img { height:240px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">3BHK <span>LUXE</span> APARTMENT</div>
+      <div class="links">
+        <a href="#about">About</a><a href="#gallery">Photos</a><a href="#amenities">Amenities</a><a href="#book">Book</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow" style="color:#f1d6a5">Lucknow • Near Ekana Stadium, Phoenix Palassio & Lulu Mall</div>
+      <h1>Comfort, space & style in Lucknow.</h1>
+      <p>A spacious 3BHK home designed for relaxed family stays, getaways and longer visits.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#book">Check Availability</a>
+        <!-- Replace # with your Airbnb listing URL -->
+        <a class="btn" href="https://www.airbnb.co.in/rooms/1559178025934544162?unique_share_id=00802c9f-40a0-46e0-aef9-cc99786f2355&viralityEntryPoint=1&s=76" target="_blank" rel="noopener">Book on Airbnb</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="eyebrow">Welcome</div>
+    <h2>Your home away from home</h2>
+    <p class="intro">Enjoy the privacy of an entire apartment with a comfortable living room, well-equipped kitchen and relaxing bedrooms. Ideally located near Ekana Stadium, Phoenix Palassio and Lulu Mall, the apartment is suited to families, friends and business travellers looking for a comfortable premium stay in Lucknow.</p>
+    <div class="features">
+      <div class="feature"><b>3 Bedrooms</b><span>Comfortable sleeping space</span></div>
+      <div class="feature"><b>Entire Home</b><span>Privacy for your group</span></div>
+      <div class="feature"><b>Fully Furnished</b><span>Ready for a relaxed stay</span></div>
+      <div class="feature"><b>Easy Check-in</b><span>Caretaker-assisted arrival</span></div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="eyebrow">The Apartment</div>
+    <h2>Take a look around</h2>
+    <div class="gallery">
+      <img src="living-room-1.jpg" alt="Living room">
+      <img src="living-room-2.jpg" alt="Living and dining area">
+      <img src="living-room-3.jpg" alt="Living room and TV area">
+      <img src="kitchen.jpg" alt="Kitchen">
+      <img src="bedroom.jpg" alt="Bedroom">
+      <img src="apartment-detail.jpg" alt="Apartment interior">
+    </div>
+  </section>
+
+  <section id="amenities">
+    <div class="split">
+      <div>
+        <div class="eyebrow">Stay comfortably</div>
+        <h2>Everything you need for a relaxed stay.</h2>
+        <p class="intro">The apartment combines generous living space with practical facilities for everyday comfort.</p>
+      </div>
+      <div class="card">
+        <ul>
+          <li>Air conditioning</li>
+          <li>Wi-Fi</li>
+          <li>Smart TV / entertainment</li>
+          <li>Fully equipped kitchen</li>
+          <li>Refrigerator</li>
+          <li>Comfortable living area</li>
+          <li>Caretaker-assisted check-in</li>
+          <li>Convenient location near major attractions and shopping</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="book">
+    <div class="cta-inner">
+      <div class="eyebrow" style="color:#d7b77d">Ready to stay?</div>
+      <h2>Make your Lucknow trip comfortable.</h2>
+      <p>Check dates and reserve your stay through Airbnb, or contact us directly for enquiries.</p>
+      <div class="buttons" style="margin-top:25px">
+        <!-- Replace # with your Airbnb listing URL -->
+        <a class="btn primary" href="https://www.airbnb.co.in/rooms/1559178025934544162?unique_share_id=00802c9f-40a0-46e0-aef9-cc99786f2355&viralityEntryPoint=1&s=76" target="_blank" rel="noopener">Book on Airbnb</a>
+        <!-- Replace the number with your WhatsApp number, country code included -->
+        <a class="btn" href="https://wa.me/917460010790" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+      <p class="small">Near Ekana Stadium • Phoenix Palassio • Lulu Mall</p>
+    </div>
+  </section>
+
+  <footer>© 2026 3BHK Luxe Apartment • Lucknow</footer>
+</body>
+</html>

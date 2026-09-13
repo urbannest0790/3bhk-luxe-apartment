@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#1d1d1d"/>
+  <path d="M12 31 32 14l20 17v20H38V38H26v13H12Z" fill="#b28a52"/>
+  <text x="32" y="34" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#fff">UN</text>
+</svg>

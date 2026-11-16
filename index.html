@@ -128,6 +128,59 @@
       .gallery img { height:240px; }
       h2 { font-size:32px; }
     }
+    .contact-section {
+  background: #f7f4ef;
+  padding: 75px 22px;
+  text-align: center;
+}
+
+.contact-inner {
+  max-width: 950px;
+  margin: auto;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  margin: 35px 0;
+}
+
+.contact-card {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  border: 1px solid #e9e5de;
+}
+
+.contact-card h3 {
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.contact-section .btn {
+  background: #b28a52;
+  color: white;
+  border-color: #b28a52;
+}
+
+@media(max-width:600px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 </head>
 <body>
@@ -141,6 +194,7 @@
         <a href="#location">Location</a>
         <a href="#faq">FAQ</a>
         <a href="#book">Book</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </nav>
@@ -264,6 +318,75 @@
       <p class="small">Urban Nest Lucknow • Lucknow • Near Ekana Stadium • Phoenix Palassio • Lulu Mall</p>
     </div>
   </section>
+  <section class="contact-section" id="contact">
+  <div class="contact-inner">
+
+    <div class="eyebrow">Get in touch</div>
+
+    <h2>Contact Urban Nest Lucknow</h2>
+
+    <p class="intro" style="margin:auto">
+      Planning a stay in Lucknow? Contact us for booking enquiries,
+      availability and assistance. We would be happy to help you.
+    </p>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <h3>Call Us</h3>
+        <p>Speak with us directly for enquiries.</p>
+        <p>
+          <a href="tel:+917460010790">74600 10790</a>
+        </p>
+        <p>
+          <a href="tel:+918826755094">88267 55094</a>
+        </p>
+      </div>
+
+      <div class="contact-card">
+        <h3>WhatsApp Us</h3>
+        <p>Message us for booking information and assistance.</p>
+        <a class="btn"
+           href="https://wa.me/917460010790"
+           onclick="gtag('event','whatsapp_click',{button_location:'contact'})"
+           target="_blank"
+           rel="noopener">
+          Chat on WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <h3>Find Your Stay in Lucknow</h3>
+
+    <p class="intro" style="margin:12px auto">
+      Urban Nest Lucknow • 3BHK Luxe Apartment
+      <br>
+      Near Ekana Stadium, Phoenix Palassio and Lulu Mall.
+    </p>
+
+    <div class="contact-actions">
+
+      <a class="btn"
+         href="https://www.airbnb.co.in/rooms/1559178025934544162?unique_share_id=00802c9f-40a0-46e0-aef9-cc99786f2355&viralityEntryPoint=1&s=76"
+         onclick="gtag('event','airbnb_click',{button_location:'contact'})"
+         target="_blank"
+         rel="noopener">
+        Book on Airbnb
+      </a>
+
+      <a class="btn"
+         href="https://wa.me/917460010790"
+         onclick="gtag('event','whatsapp_click',{button_location:'contact'})"
+         target="_blank"
+         rel="noopener">
+        Send an Enquiry
+      </a>
+
+    </div>
+
+  </div>
+</section>
 
   <footer>© 2026 Urban Nest Lucknow • 3BHK Luxe Apartment • Lucknow</footer>
 </body>
